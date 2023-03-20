@@ -124,7 +124,7 @@ ENV PGID=0
 ENV SSL_DOMAIN=rtmp-server.loc
 EXPOSE 1935
 EXPOSE 1936
-EXPOSE 8080
+EXPOSE 16969
 VOLUME /assets
 
 CMD ["bash", "/run.sh"]
